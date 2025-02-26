@@ -2,7 +2,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'About me', href: '#', current: true },
+    { name: 'Home', href: '#', current: true },
+    { name: 'About me', href: '#', current: false },
     { name: 'Projects', href: '#', current: false },
     { name: 'Skills', href: '#', current: false },
     { name: 'Contact', href: '#', current: false },
@@ -14,7 +15,7 @@ function classNames(...classes: string[]) {
 
 export default function Navbar() {
     return (
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -29,8 +30,7 @@ export default function Navbar() {
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex shrink-0 items-center">
                             <img
-                                alt="Your Company"
-                                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                                src="/icon.png"
                                 className="h-8 w-auto"
                             />
                         </div>
@@ -42,7 +42,7 @@ export default function Navbar() {
                                         href={item.href}
                                         aria-current={item.current ? 'page' : undefined}
                                         className={classNames(
-                                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                            item.current ? 'bg-gray-700 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                             'rounded-md px-3 py-2 text-sm font-medium',
                                         )}
                                     >
