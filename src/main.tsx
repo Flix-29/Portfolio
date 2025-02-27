@@ -6,7 +6,7 @@ import Hero from "./components/Hero.tsx";
 
 export function App() {
     return (
-        <div className="text-white bg-radial from-gray-800 from-30% to-gray-900 to-90%">
+        <div className="text-white bg-radial from-gray-800 from-30% to-gray-900 to-65%">
             <Navbar />
             <Hero />
         </div>
