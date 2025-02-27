@@ -3,12 +3,14 @@ import {createRoot} from 'react-dom/client'
 import './index.css'
 import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
+import About from "./components/About.tsx";
 
 export function App() {
     return (
-        <div className="text-white bg-radial from-gray-800 from-30% to-gray-900 to-65%">
+        <div>
             <Navbar />
             <Hero />
+            <About />
         </div>
     );
 }

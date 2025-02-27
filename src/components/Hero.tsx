@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="min-h-screen flex items-center justify-center text-white px-6">
+        <section id="hero" className="min-h-screen flex items-center justify-center text-white px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <img
                     src="/icon.png"
@@ -20,7 +20,7 @@ export default function Hero() {
                     <a
                         href="#projects"
                         className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg
-                            font-semibold shadow-md hover:bg-blue-700 transition"
+                            font-semibold shadow-md hover:bg-blue-700 transition hover:animate-pulse"
                     >
                         View My Projects
                     </a>
