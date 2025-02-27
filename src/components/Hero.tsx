@@ -19,8 +19,8 @@ export default function Hero() {
 
                     <a
                         href="#projects"
-                        className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg
-                            font-semibold shadow-md hover:bg-blue-700 transition hover:animate-pulse"
+                        className="mt-6 inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg text-lg
+                            font-semibold shadow-md hover:bg-emerald-700 transition hover:animate-pulse"
                     >
                         View My Projects
                     </a>

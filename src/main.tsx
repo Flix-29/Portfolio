@@ -4,6 +4,7 @@ import './index.css'
 import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
 import About from "./components/About.tsx";
+import Projects from "./components/Projects.tsx";
 
 export function App() {
     return (
@@ -11,6 +12,7 @@ export function App() {
             <Navbar />
             <Hero />
             <About />
+            <Projects />
         </div>
     );
 }
