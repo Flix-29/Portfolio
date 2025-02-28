@@ -7,6 +7,7 @@ import About from "./components/About.tsx";
 import Projects from "./components/Projects.tsx";
 import Skills from "./components/Skills.tsx";
 import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx";
 
 export function App() {
     return (
@@ -17,6 +18,7 @@ export function App() {
             <Projects />
             <Skills />
             <Contact />
+            <Footer />
         </div>
     );
 }
