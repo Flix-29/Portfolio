@@ -66,7 +66,9 @@ export default function Skills() {
                 <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-7">
                     {sections.map((section, index) => (
                         <div className={`bg-gray-700 rounded-lg shadow-lg shadow-black/40 p-6 transition-transform transform
-                                ${sections.length % 2 === 1 && index === sections.length - 1 ? "lg:col-span-2 lg:mx-auto" : ""}`}>
+                                ${sections.length % 2 === 1 && index === sections.length - 1 ? "lg:col-span-2 lg:mx-auto" : ""}`}
+                            key={section.name}
+                        >
                             <h3 className="text-2xl font-semibold mb-4 min-h-8">{section.name}</h3>
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-center">
                                 {section.skills.map((skill) => (

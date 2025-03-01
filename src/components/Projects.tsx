@@ -37,7 +37,7 @@ export default function Projects() {
 
                 <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-7">
                     {projects.map((project) => (
-                        <div className="bg-gray-700 rounded-lg shadow-lg shadow-black/40 p-6 transition-transform transform hover:scale-105 hover:shadow-xl">
+                        <div className="bg-gray-700 rounded-lg shadow-lg shadow-black/40 p-6 transition-transform transform hover:scale-105 hover:shadow-xl" key={project.title}>
                             <span className="flex justify-center">
                                 <img
                                     src={project.image}
@@ -48,7 +48,9 @@ export default function Projects() {
                             <p className="text-gray-300 mt-2 min-h-12">{project.description}</p>
                             <div className="mt-4 flex flex-wrap justify-center gap-2">
                                 {project.tags.map((tag) => (
-                                    <span className="bg-blue-600 px-2 py-1 rounded-lg text-sm">{tag}</span>
+                                    <span className="bg-blue-600 px-2 py-1 rounded-lg text-sm" key={tag}>
+                                        {tag}
+                                    </span>
                                 ))}
                             </div>
                             <div className="mt-4 flex gap-4 justify-center">

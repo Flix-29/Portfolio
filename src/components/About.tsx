@@ -31,6 +31,7 @@ export default function About() {
                     {tools.map((item) => (
                         <span
                             className={classNames("bg-gray-700 flex items-center px-3 py-2 rounded-lg gap-1.5", item.padding ? "pr-4" : "")}
+                            key={item.name}
                         >
                             <img src={item.icon} width={item.size} height={item.size}/>
                             {item.name}
