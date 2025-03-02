@@ -11,11 +11,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20'
-
-      - name: npm deploy
+      - name: Deploy with gh-pages
         run: |
-          npm run deploy
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>" --cname flix29.de
+          env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
