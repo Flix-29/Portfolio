@@ -3,7 +3,7 @@ export default function Hero() {
         <section id="hero" className="min-h-screen flex items-center justify-center px-6 dark:bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <img
-                    src="/icon.png"
+                    src="/Portfolio/icon.png"
                     alt="Felix Profile"
                     className="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-gray-300"
                 />
