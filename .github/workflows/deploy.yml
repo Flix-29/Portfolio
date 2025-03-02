@@ -1,10 +1,10 @@
-name: build
+name: deploy
 
 on: push
 
 jobs:
   build:
-    name: npm Build
+    name: npm deploy to github pages
     runs-on: ubuntu-latest
 
     steps:
