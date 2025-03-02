@@ -4,4 +4,7 @@ export default {
         extend: {},
     },
     plugins: [],
+    corePlugins: {
+        scrollBehavior: true,
+    },
 }
