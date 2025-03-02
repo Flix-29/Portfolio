@@ -8,10 +8,10 @@ const contact = [
 
 export default function Contact() {
     return (
-        <section id="contact" className="bg-gray-900 text-white py-16 px-6">
+        <section id="contact" className="py-16 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-6">Contact</h2>
-                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                <p className="text-lg max-w-3xl mx-auto leading-relaxed">
                     Feel free to reach out to me if you have any questions or just want to chat.
                 </p>
             </div>

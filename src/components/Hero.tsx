@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center text-white px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
+        <section id="hero" className="min-h-screen flex items-center justify-center px-6 dark:bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <img
                     src="/icon.png"
@@ -9,10 +9,10 @@ export default function Hero() {
                 />
 
                 <div className="ml-10 text-center md:text-left">
-                    <h1 className="text-4xl md:text-6xl font-bold text-white">
+                    <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
                         Hi, I'm Felix
                     </h1>
-                    <p className="text-gray-300 mt-4 text-lg max-w-lg">
+                    <p className="mt-4 text-lg max-w-lg">
                         Backend Developer | Computer Science Student
                         <br/> Tech Enthusiast | Open Source Contributor
                     </p>

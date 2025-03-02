@@ -8,11 +8,13 @@ import Projects from "./components/Projects.tsx";
 import Skills from "./components/Skills.tsx";
 import Contact from "./components/Contact.tsx";
 import Footer from "./components/Footer.tsx";
+import DarkModeSwitch from "./components/DarkModeSwitch.tsx";
 
 export function App() {
     return (
         <div>
             <Navbar />
+            <DarkModeSwitch />
             <Hero />
             <About />
             <Projects />

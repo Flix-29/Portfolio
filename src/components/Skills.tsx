@@ -55,17 +55,17 @@ const sections = [
 
 export default function Skills() {
     return (
-        <section id="skills" className="bg-gray-900 text-white py-16 px-6">
+        <section id="skills" className="py-16 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-6">Tech Stack & Tools</h2>
-                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                <p className="text-lg max-w-3xl mx-auto leading-relaxed">
                     These are some of the tools and technologies that I have experience with. I am always looking to
                     learn new things and improve my skills.
                 </p>
 
                 <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-7">
                     {sections.map((section, index) => (
-                        <div className={`bg-gray-700 rounded-lg shadow-lg shadow-black/40 p-6 transition-transform transform
+                        <div className={`bg-gray-700 text-gray-200 rounded-lg shadow-lg shadow-black/40 p-6 transition-transform transform
                                 ${sections.length % 2 === 1 && index === sections.length - 1 ? "lg:col-span-2 lg:mx-auto" : ""}`}
                             key={section.name}
                         >

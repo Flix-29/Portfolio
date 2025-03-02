@@ -28,10 +28,10 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section id="projects" className="bg-gray-900 text-white py-16 px-6">
+        <section id="projects" className="py-16 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-6">Projects</h2>
-                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                <p className="text-lg max-w-3xl mx-auto leading-relaxed">
                     Here are some of my projects that I have worked on in the past. Feel free to check them out on GitHub.
                 </p>
 
@@ -44,16 +44,16 @@ export default function Projects() {
                                     className="w-full h-48 object-cover rounded-lg transition-opacity duration-300 opacity-90 hover:opacity-100"
                                 />
                             </span>
-                            <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
-                            <p className="text-gray-300 mt-2 min-h-12">{project.description}</p>
+                            <h3 className="text-gray-200 text-xl font-semibold mt-4">{project.title}</h3>
+                            <p className="text-gray-200 mt-2 min-h-12">{project.description}</p>
                             <div className="mt-4 flex flex-wrap justify-center gap-2">
                                 {project.tags.map((tag) => (
-                                    <span className="bg-blue-600 px-2 py-1 rounded-lg text-sm" key={tag}>
+                                    <span className="bg-blue-600 text-white px-2 py-1 rounded-lg text-sm" key={tag}>
                                         {tag}
                                     </span>
                                 ))}
                             </div>
-                            <div className="mt-4 flex gap-4 justify-center">
+                            <div className="mt-4 flex gap-3.5 justify-center">
                                 <a
                                     href={project.github}
                                     target={"_blank"}

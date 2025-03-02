@@ -34,12 +34,12 @@ export default function Navbar() {
     }, []);
 
     return (
-        <Disclosure as="nav" className="sticky top-0 z-10 bg-gray-900">
+        <Disclosure as="nav" className="bg-gray-300 dark:bg-gray-800 sticky top-0 z-10">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         <DisclosureButton
-                            className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
+                            className="group relative inline-flex items-center justify-center rounded-md p-2 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
                             <span className="absolute -inset-0.5"/>
                             <span className="sr-only">Open main menu</span>
                             <Bars3Icon aria-hidden="true" className="block size-6 group-data-open:hidden"/>
@@ -60,7 +60,7 @@ export default function Navbar() {
                                         key={item.name}
                                         href={item.href}
                                         className={`rounded-md px-3 py-2 text-sm font-medium ${
-                                            activeSection === item.href.substring(1) ? "bg-gray-700 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                                            activeSection === item.href.substring(1) ? "bg-gray-700 text-white" : "dark:text-gray-300 hover:bg-gray-700 hover:text-white"
                                         }`}
                                     >
                                         {item.name}
