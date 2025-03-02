@@ -19,12 +19,12 @@ export default function About() {
                 <p className="text-lg max-w-3xl mx-auto leading-relaxed">
                     I'm Felix, a backend developer from Germany working at Creditreform. I'm currently doing a dual study program
                     in computer science at the IU International University of Applied Sciences. <br/>
-                    I specialize in <span className="text-emerald-600 font-bold">Java and building RestAPIs with Spring Boot</span>.
-                    I also have experience <br/>in <span className="text-emerald-600 font-bold">PHP and Python</span> and have worked with
-                    frameworks like <span className="text-emerald-600 font-bold">Symfony</span>. <br/>
+                    I specialize in <span className="text-purple-400 dark:text-emerald-600 font-bold">Java and building RestAPIs with Spring Boot</span>.
+                    I also have experience <br/>in <span className="text-purple-400 dark:text-emerald-600 font-bold">PHP and Python</span> and have worked with
+                    frameworks like <span className="text-purple-400 dark:text-emerald-600 font-bold">Symfony</span>. <br/>
                     Despite my focus on backend development. I also have experience in frontend development with knowledge
-                    in <span className="text-emerald-600 font-bold">HTML, CSS, and JavaScript/TypeScript</span> and frameworks
-                    like <span className="text-emerald-600 font-bold">Vue.js and React with Tailwindcss or Bootstrap</span>. <br/>
+                    in <span className="text-purple-400 dark:text-emerald-600 font-bold">HTML, CSS, and JavaScript/TypeScript</span> and frameworks
+                    like <span className="text-purple-400 dark:text-emerald-600 font-bold">Vue.js and React with Tailwindcss or Bootstrap</span>. <br/>
                 </p>
 
                 <div className="mt-8 flex dark:text-gray-200 text-black flex-wrap justify-center gap-6">

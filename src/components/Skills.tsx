@@ -73,7 +73,7 @@ export default function Skills() {
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-center">
                                 {section.skills.map((skill) => (
                                     <div key={skill.name}
-                                         className="flex flex-col items-center gap-2 hover:text-emerald-500 hover:scale-110 transition-transform">
+                                         className="flex flex-col items-center gap-2 hover:text-purple-400 dark:hover:text-emerald-500 hover:scale-110 transition-transform">
                                         {skill.icon}
                                         <span>{skill.name}</span>
                                     </div>

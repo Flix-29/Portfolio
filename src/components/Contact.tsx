@@ -23,7 +23,7 @@ export default function Contact() {
                         key={item.name}
                         target={"_blank"}
                         className="flex gap-2 justify-center bg-gray-700 text-white px-4 py-2 rounded-lg text-sm
-                            font-semibold shadow-md hover:bg-emerald-600 hover:shadow-black/40 transition"
+                            font-semibold shadow-md hover:bg-purple-400 dark:hover:bg-emerald-600 hover:shadow-black/40 transition"
                     >
                         {item.icon}
                         {item.name}

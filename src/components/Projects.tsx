@@ -57,7 +57,8 @@ export default function Projects() {
                                 <a
                                     href={project.github}
                                     target={"_blank"}
-                                    className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm font-semibold shadow-md hover:bg-emerald-600 transition">
+                                    className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg
+                                        text-sm font-semibold shadow-md hover:bg-purple-400 dark:hover:bg-emerald-600 transition">
                                     <FaGithub className="size-5" />
                                     GitHub
                                 </a>
@@ -66,7 +67,7 @@ export default function Projects() {
                                         href={project.use}
                                         target={"_blank"}
                                         className="bg-gray-800 text-white px-4 py-2 rounded-lg text-sm
-                                            font-semibold shadow-md hover:bg-emerald-600 transition"
+                                            font-semibold shadow-md hover:bg-purple-400 dark:hover:bg-emerald-600 transition"
                                     >
                                         Check it out
                                     </a>
