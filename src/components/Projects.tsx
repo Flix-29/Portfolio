@@ -4,7 +4,7 @@ const projects = [
     {
         title: "NotionApiClient",
         description: "A simple Java client for the Notion API.",
-        image: "/Portfolio/notionapiclient.png",
+        image: "/notionapiclient.png",
         tags: ["Java", "Maven", "Notion API"],
         github: "https://github.com/Flix-29/NotionApiClient",
         use: "https://mvnrepository.com/artifact/de.flix29/notion-api-client"
@@ -12,14 +12,14 @@ const projects = [
     {
         title: "BesserTanken",
         description: "A simple Website to find the cheapest gas station near you.",
-        image: "/Portfolio/bessertanken.png",
+        image: "/bessertanken.png",
         tags: ["Java", "Vaadin", "Spring Boot"],
         github: "https://github.com/Flix-29/BesserTanken",
     },
     {
         title: "Portfolio",
         description: "My personal portfolio website.",
-        image: "/Portfolio/portfolio.png",
+        image: "/portfolio.png",
         tags: ["TypeScript", "React", "Tailwindcss"],
         github: "https://github.com/Flix-29/Portfolio",
         use: "http://flix29.de"
