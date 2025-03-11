@@ -1,9 +1,10 @@
 import {IoIosMail} from 'react-icons/io'
-import {FaGithub} from "react-icons/fa";
+import {FaGithub, FaLinkedin} from "react-icons/fa";
 
 const contact = [
     {name: "Email", link: "mailto:info@flix29.de", icon: <IoIosMail className="size-5"></IoIosMail>},
     {name: "GitHub", link: "https://github.com/Flix-29", icon: <FaGithub className="size-5"></FaGithub>},
+    {name: "LinkedIn", link: "https://www.linkedin.com/in/felix-hallerbach-a630a9356/", icon: <FaLinkedin className="size-5"></FaLinkedin>}
 ]
 
 export default function Contact() {
@@ -16,7 +17,7 @@ export default function Contact() {
                 </p>
             </div>
 
-            <div className="mt-8 flex justify-center gap-8">
+            <div className="mt-8 flex justify-center md:gap-8 gap-4">
                 {contact.map(item => (
                     <a
                         href={item.link}
