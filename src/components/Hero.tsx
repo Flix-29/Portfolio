@@ -10,7 +10,7 @@ export default function Hero() {
                     className="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-gray-300"
                 />
 
-                <div className="ml-10 text-center md:text-left">
+                <div className="md:ml-10 text-center md:text-left">
                     <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
                         Hi, I'm Felix
                     </h1>
