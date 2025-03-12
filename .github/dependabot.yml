@@ -4,7 +4,8 @@ updates:
     target-branch: "main"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "monday"
       time: "03:00"
       timezone: "Europe/Berlin"
     commit-message:
