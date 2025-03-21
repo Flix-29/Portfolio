@@ -43,7 +43,7 @@ export default function Projects() {
                     Here are some of my projects that I have worked on in the past. Feel free to check them out on GitHub.
                 </p>
 
-                <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-7">
+                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
                     {projects.map((project) => (
                         <div className="bg-gray-700 rounded-lg shadow-lg shadow-black/40 p-6 transition-transform transform hover:scale-105 hover:shadow-xl" key={project.title}>
                             <span className="flex justify-center">
