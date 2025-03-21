@@ -40,7 +40,7 @@ export default function Projects() {
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-6">Projects</h2>
                 <p className="text-lg max-w-3xl mx-auto leading-relaxed">
-                    Here are some of my projects that I have worked on in the past. Feel free to check them out on GitHub.
+                    Here are some of my projects that I have worked on in the past. Feel free to check them out on GitHub or see them live in action.
                 </p>
 
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
