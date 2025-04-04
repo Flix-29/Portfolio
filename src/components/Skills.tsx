@@ -17,34 +17,35 @@ import {
 } from "react-icons/bi";
 import {FaSymfony, FaJenkins} from "react-icons/fa";
 import {DiMysql} from "react-icons/di";
-import {SiOpenapiinitiative} from "react-icons/si";
+import {SiInsomnia, SiOpenapiinitiative} from "react-icons/si";
 
 const backend = [
-    {name: 'Java', icon: <BiLogoJava className="size-5"></BiLogoJava>},
-    {name: 'Spring Boot', icon: <BiLogoSpringBoot className="size-5"></BiLogoSpringBoot>},
-    {name: 'OpenAPI', icon: <SiOpenapiinitiative className="size-5"></SiOpenapiinitiative>},
-    {name: 'PHP', icon: <BiLogoPhp className="size-5"></BiLogoPhp>},
-    {name: 'Symphony', icon: <FaSymfony className="size-5"></FaSymfony>},
-    {name: 'Python', icon: <BiLogoPython className="size-5"></BiLogoPython>},
+    {name: 'Java', icon: <BiLogoJava className="size-5"/>},
+    {name: 'Spring Boot', icon: <BiLogoSpringBoot className="size-5"/>},
+    {name: 'OpenAPI', icon: <SiOpenapiinitiative className="size-5"/>},
+    {name: 'PHP', icon: <BiLogoPhp className="size-5"/>},
+    {name: 'Symphony', icon: <FaSymfony className="size-5"/>},
+    {name: 'Python', icon: <BiLogoPython className="size-5"/>},
 ]
 
 const frontend = [
-    {name: 'HTML', icon: <BiLogoHtml5 className="size-5"></BiLogoHtml5>},
-    {name: 'CSS', icon: <BiLogoCss3 className="size-5"></BiLogoCss3>},
-    {name: 'JavaScript', icon: <BiLogoJavascript className="size-5"></BiLogoJavascript>},
-    {name: 'TypeScript', icon: <BiLogoTypescript className="size-5"></BiLogoTypescript>},
-    {name: 'Bootstrap', icon: <BiLogoBootstrap className="size-5"></BiLogoBootstrap>},
-    {name: 'Tailwind CSS', icon: <BiLogoTailwindCss className="size-5"></BiLogoTailwindCss>},
-    {name: 'React', icon: <BiLogoReact className="size-5"></BiLogoReact>},
+    {name: 'HTML', icon: <BiLogoHtml5 className="size-5"/>},
+    {name: 'CSS', icon: <BiLogoCss3 className="size-5"/>},
+    {name: 'JavaScript', icon: <BiLogoJavascript className="size-5"/>},
+    {name: 'TypeScript', icon: <BiLogoTypescript className="size-5"/>},
+    {name: 'Bootstrap', icon: <BiLogoBootstrap className="size-5"/>},
+    {name: 'Tailwind CSS', icon: <BiLogoTailwindCss className="size-5"/>},
+    {name: 'React', icon: <BiLogoReact className="size-5"/>},
 ]
 
 const tools = [
-    {name: 'Git', icon: <BiLogoGit className="size-5"></BiLogoGit>},
-    {name: 'GitHub', icon: <BiLogoGithub className="size-5"></BiLogoGithub>},
-    {name: 'Docker', icon: <BiLogoDocker className="size-5"></BiLogoDocker>},
-    {name: 'Jenkins', icon: <FaJenkins className="size-5"></FaJenkins>},
-    {name: 'PostgreSQL', icon: <BiLogoPostgresql className="size-5"></BiLogoPostgresql>},
-    {name: 'MySQL', icon: <DiMysql className="size-5"></DiMysql>},
+    {name: 'Git', icon: <BiLogoGit className="size-5"/>},
+    {name: 'GitHub', icon: <BiLogoGithub className="size-5"/>},
+    {name: 'Docker', icon: <BiLogoDocker className="size-5"/>},
+    {name: 'Insomnia', icon: <SiInsomnia className="size-5"/>},
+    {name: 'Jenkins', icon: <FaJenkins className="size-5"/>},
+    {name: 'PostgreSQL', icon: <BiLogoPostgresql className="size-5"/>},
+    {name: 'MySQL', icon: <DiMysql className="size-5"/>},
 ]
 
 const sections = [
