@@ -25,6 +25,13 @@ const projects = [
         github: "https://github.com/Flix-29/BesserTanken",
     },
     {
+        title: "WeedWizard",
+        description: "A all-in-one web app for cannabis shops, clubs and strains. Build as a university project.",
+        image: "/weedwizard.png",
+        tags: ["PHP", "Symfony", "MySQL", "Bootstrap", "Twig"],
+        github: "https://github.com/Shweit/WeedWizard",
+    },
+    {
         title: "Portfolio",
         description: "My personal portfolio website.",
         image: "/portfolio.png",
