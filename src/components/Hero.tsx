@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section id="hero" className="min-h-screen flex items-center justify-center px-6
-            bg-gradient-to-b dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
+            bg-gradient-to-b dark:from-gray-900 dark:via-gray-700 dark:to-gray-900
             from-gray-300 via-purple-300 to-white">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <img
