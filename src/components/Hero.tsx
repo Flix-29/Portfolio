@@ -5,7 +5,7 @@ export default function Hero() {
             from-gray-300 via-purple-300 to-white">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <img
-                    src="/icon.png"
+                    src="/me.png"
                     alt="Felix Profile"
                     className="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-gray-300"
                 />
