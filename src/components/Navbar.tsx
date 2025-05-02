@@ -82,7 +82,7 @@ export default function Navbar() {
                             as="a"
                             href={item.href}
                             className={`block rounded-md px-3 py-2 text-base font-medium ${
-                                activeSection === item.href.substring(1) ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                                activeSection === item.href.substring(1) ? "bg-gray-900 text-white" : "dark:text-gray-300 hover:bg-gray-700 hover:text-white"
                             }`}
                         >
                             {item.name}
