@@ -26,6 +26,14 @@ const projects = [
         use: "https://movie-tinder.flix29.de/"
     },
     {
+        title: "Model Portfolio",
+        description: "A portfolio website for a model.",
+        image: "/modelportfolio.png",
+        tags: ["TypeScript", "React", "Tailwindcss"],
+        github: "https://github.com/Flix-29/wiki-portfolio",
+        use: "https://wiktoria-schmidt.de/"
+    },
+    {
         title: "BesserTanken",
         description: "A simple Website to find the cheapest gas station near you.",
         image: "/bessertanken.png",
