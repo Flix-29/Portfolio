@@ -46,6 +46,7 @@ const projects = [
         image: "/bessertanken.png",
         tags: ["Java", "Vaadin", "Spring Boot"],
         github: "https://github.com/Flix-29/BesserTanken",
+        use: "https://bessertanken.flix29.de/"
     },
     {
         title: "WeedWizard",
