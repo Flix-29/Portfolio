@@ -18,20 +18,27 @@ const projects = [
         use: "https://mvnrepository.com/artifact/de.flix29/notion-api-client"
     },
     {
-        title: "MovieTinder",
-        description: "A Tinder-like web app to find movies to watch.",
-        image: "/movietinder.png",
-        tags: ["TypeScript", "React", "Tailwindcss", "TMDB API"],
-        github: "https://github.com/Flix-29/MovieTinder",
-        use: "https://movie-tinder.flix29.de/"
-    },
-    {
         title: "Model Portfolio",
         description: "A portfolio website for a model.",
         image: "/modelportfolio.png",
         tags: ["TypeScript", "React", "Tailwindcss"],
         github: "https://github.com/Flix-29/wiki-portfolio",
         use: "https://wiktoria-schmidt.de/"
+    },
+    {
+        title: "Application Tracker",
+        description: "A simple web app to keep track of your job applications. Build as a university project.",
+        image: "/applicationtracker.png",
+        tags: ["React Native", "Expo", "TypeScript", "Spring Boot", "Java"],
+        github: "https://github.com/Shweit/application_tracker",
+    },
+    {
+        title: "MovieTinder",
+        description: "A Tinder-like web app to find movies to watch.",
+        image: "/movietinder.png",
+        tags: ["TypeScript", "React", "Tailwindcss", "TMDB API"],
+        github: "https://github.com/Flix-29/MovieTinder",
+        use: "https://movie-tinder.flix29.de/"
     },
     {
         title: "BesserTanken",
