@@ -51,6 +51,7 @@ export default function Navbar() {
                             <a href="#hero" className="flex items-center">
                             <img
                                 src="/icon.png"
+                                alt="Felix Hallerbach"
                                 className="h-8 w-auto"
                             />
                             </a>

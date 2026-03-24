@@ -33,12 +33,12 @@ const projects = [
         github: "https://github.com/Shweit/application_tracker",
     },
     {
-        title: "MovieTinder",
-        description: "A Tinder-like web app to find movies to watch.",
-        image: "/movietinder.png",
+        title: "MovieSwiper",
+        description: "A web app to find movies you all want to watch.",
+        image: "/movieswiper.png",
         tags: ["TypeScript", "React", "Tailwindcss", "TMDB API"],
-        github: "https://github.com/Flix-29/MovieTinder",
-        use: "https://movie-tinder.flix29.de/"
+        github: "https://github.com/Flix-29/MovieSwiper",
+        use: "https://movie-swiper.flix29.de/"
     },
     {
         title: "BesserTanken",
